@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D66DDEDF1983DE6900203D83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D66DDEDE1983DE6900203D83 /* Foundation.framework */; };
+		D66DDEE11983DE6900203D83 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D66DDEE01983DE6900203D83 /* CoreGraphics.framework */; };
+		D66DDEE31983DE6900203D83 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D66DDEE21983DE6900203D83 /* UIKit.framework */; };
+		D66DDEE91983DE6900203D83 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D66DDEE71983DE6900203D83 /* InfoPlist.strings */; };
+		D66DDEEB1983DE6900203D83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D66DDEEA1983DE6900203D83 /* main.m */; };
+		D66DDEEF1983DE6900203D83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D66DDEEE1983DE6900203D83 /* AppDelegate.m */; };
+		D66DDEF21983DE6900203D83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D66DDEF01983DE6900203D83 /* Main.storyboard */; };
+		D66DDEF51983DE6900203D83 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D66DDEF41983DE6900203D83 /* ViewController.m */; };
+		D66DDEF71983DE6900203D83 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D66DDEF61983DE6900203D83 /* Images.xcassets */; };
+		D66DDEFE1983DE6900203D83 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D66DDEFD1983DE6900203D83 /* XCTest.framework */; };
+		D66DDEFF1983DE6900203D83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D66DDEDE1983DE6900203D83 /* Foundation.framework */; };
+		D66DDF001983DE6900203D83 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D66DDEE21983DE6900203D83 /* UIKit.framework */; };
+		D66DDF081983DE6900203D83 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D66DDF061983DE6900203D83 /* InfoPlist.strings */; };
+		D66DDF0A1983DE6900203D83 /* HPPageViewControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D66DDF091983DE6900203D83 /* HPPageViewControllerDemoTests.m */; };
+		D66DDF181983E17A00203D83 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = D66DDF151983E17A00203D83 /* CustomView.m */; };
+		D66DDF191983E17A00203D83 /* HPPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D66DDF171983E17A00203D83 /* HPPageViewController.m */; };
+		D66DDF1C1983E18E00203D83 /* ContentTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D66DDF1B1983E18E00203D83 /* ContentTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D66DDF011983DE6900203D83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D66DDED31983DE6900203D83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D66DDEDA1983DE6900203D83;
+			remoteInfo = HPPageViewControllerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D66DDEDB1983DE6900203D83 /* HPPageViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HPPageViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D66DDEDE1983DE6900203D83 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D66DDEE01983DE6900203D83 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D66DDEE21983DE6900203D83 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D66DDEE61983DE6900203D83 /* HPPageViewControllerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HPPageViewControllerDemo-Info.plist"; sourceTree = "<group>"; };
+		D66DDEE81983DE6900203D83 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D66DDEEA1983DE6900203D83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D66DDEEC1983DE6900203D83 /* HPPageViewControllerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HPPageViewControllerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		D66DDEED1983DE6900203D83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D66DDEEE1983DE6900203D83 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D66DDEF11983DE6900203D83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D66DDEF31983DE6900203D83 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D66DDEF41983DE6900203D83 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D66DDEF61983DE6900203D83 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D66DDEFC1983DE6900203D83 /* HPPageViewControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HPPageViewControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D66DDEFD1983DE6900203D83 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D66DDF051983DE6900203D83 /* HPPageViewControllerDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HPPageViewControllerDemoTests-Info.plist"; sourceTree = "<group>"; };
+		D66DDF071983DE6900203D83 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D66DDF091983DE6900203D83 /* HPPageViewControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPPageViewControllerDemoTests.m; sourceTree = "<group>"; };
+		D66DDF141983E17A00203D83 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		D66DDF151983E17A00203D83 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		D66DDF161983E17A00203D83 /* HPPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPPageViewController.h; sourceTree = "<group>"; };
+		D66DDF171983E17A00203D83 /* HPPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPPageViewController.m; sourceTree = "<group>"; };
+		D66DDF1A1983E18E00203D83 /* ContentTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentTableViewController.h; sourceTree = "<group>"; };
+		D66DDF1B1983E18E00203D83 /* ContentTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D66DDED81983DE6900203D83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D66DDEE11983DE6900203D83 /* CoreGraphics.framework in Frameworks */,
+				D66DDEE31983DE6900203D83 /* UIKit.framework in Frameworks */,
+				D66DDEDF1983DE6900203D83 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D66DDEF91983DE6900203D83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D66DDEFE1983DE6900203D83 /* XCTest.framework in Frameworks */,
+				D66DDF001983DE6900203D83 /* UIKit.framework in Frameworks */,
+				D66DDEFF1983DE6900203D83 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D66DDED21983DE6900203D83 = {
+			isa = PBXGroup;
+			children = (
+				D66DDEE41983DE6900203D83 /* HPPageViewControllerDemo */,
+				D66DDF031983DE6900203D83 /* HPPageViewControllerDemoTests */,
+				D66DDEDD1983DE6900203D83 /* Frameworks */,
+				D66DDEDC1983DE6900203D83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D66DDEDC1983DE6900203D83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D66DDEDB1983DE6900203D83 /* HPPageViewControllerDemo.app */,
+				D66DDEFC1983DE6900203D83 /* HPPageViewControllerDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D66DDEDD1983DE6900203D83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D66DDEDE1983DE6900203D83 /* Foundation.framework */,
+				D66DDEE01983DE6900203D83 /* CoreGraphics.framework */,
+				D66DDEE21983DE6900203D83 /* UIKit.framework */,
+				D66DDEFD1983DE6900203D83 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D66DDEE41983DE6900203D83 /* HPPageViewControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D66DDF131983DE6E00203D83 /* HPPageViewController */,
+				D66DDEED1983DE6900203D83 /* AppDelegate.h */,
+				D66DDEEE1983DE6900203D83 /* AppDelegate.m */,
+				D66DDEF01983DE6900203D83 /* Main.storyboard */,
+				D66DDEF31983DE6900203D83 /* ViewController.h */,
+				D66DDEF41983DE6900203D83 /* ViewController.m */,
+				D66DDF1A1983E18E00203D83 /* ContentTableViewController.h */,
+				D66DDF1B1983E18E00203D83 /* ContentTableViewController.m */,
+				D66DDEF61983DE6900203D83 /* Images.xcassets */,
+				D66DDEE51983DE6900203D83 /* Supporting Files */,
+			);
+			path = HPPageViewControllerDemo;
+			sourceTree = "<group>";
+		};
+		D66DDEE51983DE6900203D83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D66DDEE61983DE6900203D83 /* HPPageViewControllerDemo-Info.plist */,
+				D66DDEE71983DE6900203D83 /* InfoPlist.strings */,
+				D66DDEEA1983DE6900203D83 /* main.m */,
+				D66DDEEC1983DE6900203D83 /* HPPageViewControllerDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D66DDF031983DE6900203D83 /* HPPageViewControllerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D66DDF091983DE6900203D83 /* HPPageViewControllerDemoTests.m */,
+				D66DDF041983DE6900203D83 /* Supporting Files */,
+			);
+			path = HPPageViewControllerDemoTests;
+			sourceTree = "<group>";
+		};
+		D66DDF041983DE6900203D83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D66DDF051983DE6900203D83 /* HPPageViewControllerDemoTests-Info.plist */,
+				D66DDF061983DE6900203D83 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D66DDF131983DE6E00203D83 /* HPPageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D66DDF141983E17A00203D83 /* CustomView.h */,
+				D66DDF151983E17A00203D83 /* CustomView.m */,
+				D66DDF161983E17A00203D83 /* HPPageViewController.h */,
+				D66DDF171983E17A00203D83 /* HPPageViewController.m */,
+			);
+			path = HPPageViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D66DDEDA1983DE6900203D83 /* HPPageViewControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D66DDF0D1983DE6900203D83 /* Build configuration list for PBXNativeTarget "HPPageViewControllerDemo" */;
+			buildPhases = (
+				D66DDED71983DE6900203D83 /* Sources */,
+				D66DDED81983DE6900203D83 /* Frameworks */,
+				D66DDED91983DE6900203D83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HPPageViewControllerDemo;
+			productName = HPPageViewControllerDemo;
+			productReference = D66DDEDB1983DE6900203D83 /* HPPageViewControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D66DDEFB1983DE6900203D83 /* HPPageViewControllerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D66DDF101983DE6900203D83 /* Build configuration list for PBXNativeTarget "HPPageViewControllerDemoTests" */;
+			buildPhases = (
+				D66DDEF81983DE6900203D83 /* Sources */,
+				D66DDEF91983DE6900203D83 /* Frameworks */,
+				D66DDEFA1983DE6900203D83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D66DDF021983DE6900203D83 /* PBXTargetDependency */,
+			);
+			name = HPPageViewControllerDemoTests;
+			productName = HPPageViewControllerDemoTests;
+			productReference = D66DDEFC1983DE6900203D83 /* HPPageViewControllerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D66DDED31983DE6900203D83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Mallocu;
+				TargetAttributes = {
+					D66DDEFB1983DE6900203D83 = {
+						TestTargetID = D66DDEDA1983DE6900203D83;
+					};
+				};
+			};
+			buildConfigurationList = D66DDED61983DE6900203D83 /* Build configuration list for PBXProject "HPPageViewControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D66DDED21983DE6900203D83;
+			productRefGroup = D66DDEDC1983DE6900203D83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D66DDEDA1983DE6900203D83 /* HPPageViewControllerDemo */,
+				D66DDEFB1983DE6900203D83 /* HPPageViewControllerDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D66DDED91983DE6900203D83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D66DDEF71983DE6900203D83 /* Images.xcassets in Resources */,
+				D66DDEE91983DE6900203D83 /* InfoPlist.strings in Resources */,
+				D66DDEF21983DE6900203D83 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D66DDEFA1983DE6900203D83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D66DDF081983DE6900203D83 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D66DDED71983DE6900203D83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D66DDEF51983DE6900203D83 /* ViewController.m in Sources */,
+				D66DDF1C1983E18E00203D83 /* ContentTableViewController.m in Sources */,
+				D66DDF181983E17A00203D83 /* CustomView.m in Sources */,
+				D66DDF191983E17A00203D83 /* HPPageViewController.m in Sources */,
+				D66DDEEF1983DE6900203D83 /* AppDelegate.m in Sources */,
+				D66DDEEB1983DE6900203D83 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D66DDEF81983DE6900203D83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D66DDF0A1983DE6900203D83 /* HPPageViewControllerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D66DDF021983DE6900203D83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D66DDEDA1983DE6900203D83 /* HPPageViewControllerDemo */;
+			targetProxy = D66DDF011983DE6900203D83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D66DDEE71983DE6900203D83 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D66DDEE81983DE6900203D83 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D66DDEF01983DE6900203D83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D66DDEF11983DE6900203D83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D66DDF061983DE6900203D83 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D66DDF071983DE6900203D83 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D66DDF0B1983DE6900203D83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D66DDF0C1983DE6900203D83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D66DDF0E1983DE6900203D83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HPPageViewControllerDemo/HPPageViewControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "HPPageViewControllerDemo/HPPageViewControllerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D66DDF0F1983DE6900203D83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HPPageViewControllerDemo/HPPageViewControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "HPPageViewControllerDemo/HPPageViewControllerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D66DDF111983DE6900203D83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HPPageViewControllerDemo.app/HPPageViewControllerDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HPPageViewControllerDemo/HPPageViewControllerDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HPPageViewControllerDemoTests/HPPageViewControllerDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D66DDF121983DE6900203D83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HPPageViewControllerDemo.app/HPPageViewControllerDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HPPageViewControllerDemo/HPPageViewControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "HPPageViewControllerDemoTests/HPPageViewControllerDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D66DDED61983DE6900203D83 /* Build configuration list for PBXProject "HPPageViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D66DDF0B1983DE6900203D83 /* Debug */,
+				D66DDF0C1983DE6900203D83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D66DDF0D1983DE6900203D83 /* Build configuration list for PBXNativeTarget "HPPageViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D66DDF0E1983DE6900203D83 /* Debug */,
+				D66DDF0F1983DE6900203D83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D66DDF101983DE6900203D83 /* Build configuration list for PBXNativeTarget "HPPageViewControllerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D66DDF111983DE6900203D83 /* Debug */,
+				D66DDF121983DE6900203D83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D66DDED31983DE6900203D83 /* Project object */;
+}
