@@ -8,4 +8,4 @@ I found it's quite often we need to display parallel structure of views other th
 ![demo image](https://github.com/lizixroy/HPPageViewController/blob/master/Images/demo.png)
 
 Here is a demo video on Vemio 
-
+https://vimeo.com/101794512
