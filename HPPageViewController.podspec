@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   #s.screenshots     = "https://github.com/lizixroy/HPPageViewController/blob/master/Images/demo.png"
   s.license          = 'MIT'
   s.author           = { "lizixroy" => "lizixuanroy@hotmail.com" }
-  s.source           = { :git => "https://github.com/lizixroy/HPPageViewController", :tag => 1.0 }
+  s.source           = { :git => "https://github.com/lizixroy/HPPageViewController.git", :commit => "94c3145ec95d15aa26eaf5845e0f5b7b79868ea2" }
   s.social_media_url = 'https://twitter.com/royli1004'
 
   s.platform     = :ios, '7.0'
