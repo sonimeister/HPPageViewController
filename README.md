@@ -1,7 +1,7 @@
 HPPageViewController
 ====================
 
-![demo image](https://github.com/altercation/solarized/raw/master/img/solarized-dualmode.png)
+![demo image](https://github.com/lizixroy/HPPageViewController/blob/master/Images/demo.png)
 
 Inspired by Twitter iOS7 app. Parallel scrolling through view controllers with interval between each view and scrolling navigation titles. Also a custom page control that works smoothly.
 
