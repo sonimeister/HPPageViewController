@@ -21,7 +21,7 @@
 		D66DDF001983DE6900203D83 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D66DDEE21983DE6900203D83 /* UIKit.framework */; };
 		D66DDF081983DE6900203D83 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D66DDF061983DE6900203D83 /* InfoPlist.strings */; };
 		D66DDF0A1983DE6900203D83 /* HPPageViewControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D66DDF091983DE6900203D83 /* HPPageViewControllerDemoTests.m */; };
-		D66DDF181983E17A00203D83 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = D66DDF151983E17A00203D83 /* CustomView.m */; };
+		D66DDF181983E17A00203D83 /* HPCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = D66DDF151983E17A00203D83 /* HPCustomView.m */; };
 		D66DDF191983E17A00203D83 /* HPPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D66DDF171983E17A00203D83 /* HPPageViewController.m */; };
 		D66DDF1C1983E18E00203D83 /* ContentTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D66DDF1B1983E18E00203D83 /* ContentTableViewController.m */; };
 /* End PBXBuildFile section */
@@ -56,8 +56,8 @@
 		D66DDF051983DE6900203D83 /* HPPageViewControllerDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HPPageViewControllerDemoTests-Info.plist"; sourceTree = "<group>"; };
 		D66DDF071983DE6900203D83 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D66DDF091983DE6900203D83 /* HPPageViewControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPPageViewControllerDemoTests.m; sourceTree = "<group>"; };
-		D66DDF141983E17A00203D83 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
-		D66DDF151983E17A00203D83 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		D66DDF141983E17A00203D83 /* HPCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPCustomView.h; sourceTree = "<group>"; };
+		D66DDF151983E17A00203D83 /* HPCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPCustomView.m; sourceTree = "<group>"; };
 		D66DDF161983E17A00203D83 /* HPPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPPageViewController.h; sourceTree = "<group>"; };
 		D66DDF171983E17A00203D83 /* HPPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPPageViewController.m; sourceTree = "<group>"; };
 		D66DDF1A1983E18E00203D83 /* ContentTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentTableViewController.h; sourceTree = "<group>"; };
@@ -167,8 +167,8 @@
 		D66DDF131983DE6E00203D83 /* HPPageViewController */ = {
 			isa = PBXGroup;
 			children = (
-				D66DDF141983E17A00203D83 /* CustomView.h */,
-				D66DDF151983E17A00203D83 /* CustomView.m */,
+				D66DDF141983E17A00203D83 /* HPCustomView.h */,
+				D66DDF151983E17A00203D83 /* HPCustomView.m */,
 				D66DDF161983E17A00203D83 /* HPPageViewController.h */,
 				D66DDF171983E17A00203D83 /* HPPageViewController.m */,
 			);
@@ -274,7 +274,7 @@
 			files = (
 				D66DDEF51983DE6900203D83 /* ViewController.m in Sources */,
 				D66DDF1C1983E18E00203D83 /* ContentTableViewController.m in Sources */,
-				D66DDF181983E17A00203D83 /* CustomView.m in Sources */,
+				D66DDF181983E17A00203D83 /* HPCustomView.m in Sources */,
 				D66DDF191983E17A00203D83 /* HPPageViewController.m in Sources */,
 				D66DDEEF1983DE6900203D83 /* AppDelegate.m in Sources */,
 				D66DDEEB1983DE6900203D83 /* main.m in Sources */,
@@ -482,6 +482,7 @@
 				D66DDF0F1983DE6900203D83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D66DDF101983DE6900203D83 /* Build configuration list for PBXNativeTarget "HPPageViewControllerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +491,7 @@
 				D66DDF121983DE6900203D83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

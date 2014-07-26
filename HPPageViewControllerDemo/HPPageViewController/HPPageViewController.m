@@ -7,7 +7,7 @@
 //
 
 #import "HPPageViewController.h"
-#import "CustomView.h"
+#import "HPCustomView.h"
 
 @interface HPPageViewController ()
 

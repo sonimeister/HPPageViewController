@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CustomView : UIView
+@interface HPCustomView : UIView
 
 @end

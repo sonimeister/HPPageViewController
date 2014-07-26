@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 Mallocu. All rights reserved.
 //
 
-#import "CustomView.h"
+#import "HPCustomView.h"
 
-@implementation CustomView
+@implementation HPCustomView
 
 - (id)initWithFrame:(CGRect)frame
 {
