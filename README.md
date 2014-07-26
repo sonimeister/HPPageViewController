@@ -1,22 +1,10 @@
-# HPPageViewController
+Inspired by Twitter iOS7 app. 
 
-[![CI Status](http://img.shields.io/travis/lizixroy/HPPageViewController.svg?style=flat)](https://travis-ci.org/lizixroy/HPPageViewController)
-[![Version](https://img.shields.io/cocoapods/v/HPPageViewController.svg?style=flat)](http://cocoadocs.org/docsets/HPPageViewController)
-[![License](https://img.shields.io/cocoapods/l/HPPageViewController.svg?style=flat)](http://cocoadocs.org/docsets/HPPageViewController)
-[![Platform](https://img.shields.io/cocoapods/p/HPPageViewController.svg?style=flat)](http://cocoadocs.org/docsets/HPPageViewController)
+Parallel scrolling through view controllers with interval between each view and scrolling navigation titles. Also a custom page control that works smoothly. 
 
-## Usage
+I found it's quite often we need to display parallel structure of views other than hierachical. Twitter achieved this very beautifully. The purpose is to share knowledge about how this effect can be achieved
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
-
-## Installation
-
-HPPageViewController is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-    pod "HPPageViewController"
+<img src="https://github.com/lizixroy/HPPageViewController/blob/master/Images/demo.png" width="300" height="400">
 
 ## Author
 
