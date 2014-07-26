@@ -201,8 +201,6 @@
         
         CGFloat x_offset = scrollView.contentOffset.x;
         
-        NSLog(@"%f", scrollView.contentOffset.x);
-        
         if (x_offset < 0) {
             
             self.firstLabel.alpha = 1 + x_offset / 100;

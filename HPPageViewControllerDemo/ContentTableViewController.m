@@ -78,9 +78,7 @@
     
     NSDictionary *dic = @{@"index": [NSNumber numberWithInteger:self.index]};
     [[NSNotificationCenter defaultCenter] postNotificationName:@"ContentDidAppear" object:nil userInfo:dic];
-    
-    NSLog(@"%ld", (long)self.index);
-    
+        
 }
 
 - (void)didReceiveMemoryWarning
