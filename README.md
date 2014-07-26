@@ -6,7 +6,7 @@ Inspired by Twitter iOS7 app. Parallel scrolling through view controllers with i
 I found it's quite often we need to display parallel structure of views other than hierachical. Twitter achieved this very beautifully. The purpose is to share knowledge about how this effect can be achieved. 
 
 
-<img src="https://github.com/lizixroy/HPPageViewController/blob/master/Images/demo.png" width="300" height="500">
+<img src="https://github.com/lizixroy/HPPageViewController/blob/master/Images/demo.png" width="300" height="400">
 
 
 Here is a demo video on Vemio 
